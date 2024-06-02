@@ -69,17 +69,17 @@ def heapSort1(array):
 
 # a = [0, 11, 14, 2, 7, 6, 3, 9, 5]
 a = [0, 5, 9, 2, 17, 6, 13, 11, 7, 15]
+print(f"a = {a}")
+
 b = Heap(a)
 makeHeap1(b)
-
-print(f"a = {a}")
 print(f">>> number of moves: {b.move_count}")
 
 result1 = heapSort1(a)
 print(f">>> heap sort result: {result1}")
-print()
-print()
 
+print()
+print()
 
 print("<2> Heap - All Data in Tree")
 
@@ -93,10 +93,10 @@ def heapSort2(H):
 
 # a = [0, 11, 14, 2, 7, 6, 3, 9, 5]
 a = [0, 5, 9, 2, 17, 6, 13, 11, 7, 15]
+print(f"a = {a}")
+
 c = Heap(a)
 makeHeap2(c)
-
-print(f"a = {a}")
 print(f">>> number of moves: {c.move_count}")
 
 result2 = heapSort2(c)
